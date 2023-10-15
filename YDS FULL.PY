@@ -81,7 +81,7 @@ def openaiHandler(audio_file_path):
         # Make an API call to OpenAI to summarize the audio content
         response = openai.Completion.create(
             engine="davinci",
-            prompt=f"Summarize the following audio: '{audio_file_path}'",
+            prompt=f"Summarize the following audio in persian : '{audio_file_path}'",
             max_tokens=50  # Adjust the number of tokens for desired summary length
         )
 
