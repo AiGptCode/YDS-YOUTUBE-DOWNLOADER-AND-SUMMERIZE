@@ -1,4 +1,4 @@
-## Telegram Bot YTS
+## Telegram Bot YDS
 # YOUTUBE-DOWNLOADER-AND-SUMMERIZE
 
 # Telegram YouTube Audio Summarizer Bot
