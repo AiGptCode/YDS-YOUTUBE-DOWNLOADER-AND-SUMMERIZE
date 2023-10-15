@@ -50,7 +50,10 @@ def download_video_and_extract_audio(url, output_dir):
 def text_message(update: Update, context: CallbackContext):
     text = update.message.text
 
-    if any(text.startswith(prefix) for prefix in ['http://', 'https://', 'www.youtube.com', 'youtu.be']):
+    # Define the prefixes you want to check for here
+    valid_prefixes = ['http://', 'https://', 'www.youtube.com', 'youtu.be']
+
+    if any(text.startswith(prefix) for prefix in valid_prefixes):
         update.message.reply_text('Please send me a YouTube link')
         update.message.reply_text('Downloading video and extracting audio...')
         update.message.reply_chat_action(action='typing')
