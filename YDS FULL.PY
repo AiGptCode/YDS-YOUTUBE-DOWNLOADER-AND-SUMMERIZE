@@ -74,6 +74,8 @@ def text_message(update: Update, context: CallbackContext):
 # Function to summarize audio content using OpenAI
 def openaiHandler(audio_file_path):
     try:
+        max_tokens = 50  # Adjust the number of tokens for desired summary length
+
         # Load the audio content
         with open(audio_file_path, 'rb') as audio_file:
             audio_content = audio_file.read()
@@ -82,7 +84,7 @@ def openaiHandler(audio_file_path):
         response = openai.Completion.create(
             engine="gpt-3.5-turbo",
             prompt=f"Summarize the following audio in Persian: '{audio_file_path}'",
-            max_tokens=max_tokens # Adjust the number of tokens for desired summary length
+            max_tokens=max_tokens
         )
 
         summary = response.choices[0].text
