@@ -35,7 +35,7 @@ pip install -r requirements.txt
 5. Run the bot:
 
 ```bash
-python your_bot.py
+python Yts full.py
 ```
 
 6. Start a chat with your bot on Telegram and send it a YouTube link. It will download the video, extract the audio, and provide a summary of the content.
