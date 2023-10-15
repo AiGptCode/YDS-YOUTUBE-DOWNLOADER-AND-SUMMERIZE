@@ -1,9 +1,10 @@
+## Telegram Bot YTS
 # YOUTUBE-DOWNLOADER-AND-SUMMERIZE
 
 
-I apologize for any confusion earlier. To include code blocks within this chat format, here's the full README including code and requirements.
 
-```markdown
+
+
 # Telegram YouTube Audio Summarizer Bot
 
 This is a Telegram bot that can download audio from YouTube videos and summarize the content using OpenAI's GPT-3 engine. It's a handy tool for quickly extracting insights from YouTube content.
@@ -60,6 +61,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Acknowledgments
 
 - Thanks to the developers of the Telegram Bot API, pytube, moviepy, and OpenAI for their fantastic libraries.
-```
-
-Create a `requirements.txt` file with the listed package versions and put it in the same directory as your project.
