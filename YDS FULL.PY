@@ -82,7 +82,7 @@ def openaiHandler(audio_file_path):
         response = openai.Completion.create(
             engine="gpt-3.5-turbo",
             prompt=f"Summarize the following audio in Persian: '{audio_file_path}'",
-            max_tokens=50  # Adjust the number of tokens for desired summary length
+            max_tokens=2048  # Adjust the number of tokens for desired summary length
         )
 
         summary = response.choices[0].text
