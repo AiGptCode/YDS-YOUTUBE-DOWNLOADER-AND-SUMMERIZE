@@ -2,6 +2,9 @@
 # YOUTUBE-DOWNLOADER-AND-SUMMERIZE
 
 # Telegram YouTube Audio Summarizer Bot
+
+
+ <a href="https://ibb.co/35xb00T"><img src="https://i.ibb.co/DPBF771/IMG-5333.jpg" alt="IMG-5333" border="0"></a>
  
 This is a Telegram bot that can download audio from YouTube videos and summarize the content using OpenAI's GPT-3 engine. It's a handy tool for quickly extracting insights from YouTube content.
 
